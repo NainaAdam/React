@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <form id=" form">
+        <label for="">Name</label>
+        <input type="text" name="" id="inp1">
+        <br> 
+        <select name="" id="select">
+        <option value="value1">selected>Value 1</option>
+        <option value="">Value 2</option>
+        <option value="">Value 3</option>
+        <option value="">Value 4</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+        </form>
+        <h1 id="disp"></h1>
+        
+            
+        </body>
+        <script>
+            const form = document.getElementById("form")
+            const inp1 = document.getElementById("inp1")
+            const inp2 = document.getElementById("inp2")
+            const disp = document.getElementById("disp")
+            const select = document.getElementById("select")
+            function ShowOutput1(){
+                disp.innerHTML=inp1.value;
+                
+            }
+        </script>
+        
+        
+
+
+</body>
+</html>

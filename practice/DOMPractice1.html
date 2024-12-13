@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 
+        1. createElement() -
+        2. createTextNode() -
+        3. insertBefore() -
+        4. remove() -yy
+        5. removeChild() - 
+        6. replaceChild()
+    -->
+</head>
+
+<body>
+    <div id="parent">
+        <p id="child1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, accusamus?</p>
+        <p id="child2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium minima cumque aut et
+            recusandae accusamus veniam provident. Aperiam commodi eius dolore velit ducimus totam sed voluptatibus quod
+            beatae alias. Aliquam?</p>
+    </div>
+
+    <button onclick="createElementFunction()">Create Element</button>
+    <button onclick="removeElementFunction()">Remove Element</button>
+    <button onclick="removeChildElementFunction()">Remove Child Element</button>
+    <button onclick="replaceChildElementFunction()">Replace Child Element</button>
+
+    <script>
+        const parent = document.getElementById("parent");
+        const child1 = document.getElementById("child1");
+        const child2 = document.getElementById("child2");
+
+        function createElementFunction(){
+            const element = document.createElement("h1");
+            const text = document.createTextNode("This is new Heading Component");
+
+            element.append(text);
+
+            parent.insertBefore(element,child1)
+        }
+
+        function removeElementFunction(){
+            child1.remove();
+        }
+
+        function removeChildElementFunction(){
+            parent.removeChild(child2)
+        }
+
+        function replaceChildElementFunction(){
+            const element = document.createElement("h1");
+            const text = document.createTextNode("This is a Replaced Heading Component");
+
+            element.append(text);
+
+            parent.replaceChild(element,child2);
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        // Array methods//
+        const arr = [] // empty//
+        console.log(arr);
+        
+        //  how to add value in an array?//
+
+        arr[0]= "MERN";
+        arr[1]= "Python";
+        arr[2]= "Javascript";
+        arr[4]= "C#" ;   // arr[3] index is empty so it shows the emty value in place of arr[3] index//
+        console.arr(arr);
+
+        //2. //
+        const arr1 = ["Royal enfield","BMV","YAMAHA", "Kawaski"];
+        console.log(arr1);
+
+        // array methods//
+        //1.//
+        console.log(arr1.length);// returns length of array//
+        
+        //2.//
+        arr1.push("Bajaj"); // it will add one value to the last index//
+        console.log(arr1);
+
+        //3.//
+        arr1.pop(); // it will remove last index value//
+
+        //4.//
+        arr1.shift(); // it removes first index value from the array//
+
+        arr1.unshift("KTM"); //it adds first index value with KTM//
+
+        //5.//
+        arr1.slice(2,1); // we can delete a particular index value for instance in this example from 2nd index and one value//
+        arr1.slice(3,2);// 3rd index and two value wwill be deleted//
+        arr1(slice(2,1,Naina));// it can add value at the 2nd index and update it //
+
+        //6.//
+        console.log(arr1.slice(1,6))// it will show part of array from 1st index value to 6th//
+
+        //7.//
+        console.log(arr1.sort()); // it will sort the array in alphabatical order//
+        console.log(arr1.reverse()); // it will reverse the order of the array//
+
+        //8. multidimentional array- we can define one array into another array and it will store two arrays in one array//
+        const arr2=["Royal enfield","BMW","Yamaha","Kawaski"],["100","200","35","02","4500"];
+        console.log(arr2);
+
+        console.log(arr2.flat());// it will convert the array into single dimention//
+
+
+
+
+
+
+
+
+
+
+
+        
+    </script>
+</body>
+</html>

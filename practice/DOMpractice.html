@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    
+    
+    <div id="parent">
+        <p id="child1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum rem repellendus atque hic culpa nobis maxime aut cumque similique perspiciatis fugit libero provident odio consectetur explicabo, corporis, illo, cupiditate dolor?</p>
+        <p id="child2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus iure laudantium, earum temporibus laboriosam reiciendis non fuga ducimus sit alias, voluptatem, vitae accusamus nesciunt. Voluptatem similique voluptas maxime aut.</p>
+        
+    </div>
+    <button onclick="createElementFunction()">Create Element</button>
+    <button onclick="removeElementFunction()"> Remove Element</button>
+    <button onclick="removeChildElementFunction()">Remove child1 Element</button>
+    <button onclick="replaceChildElementFunction()">Replace child2 Element</button>
+    <script>
+        const parent=document.getElementById("parent");
+        const child1=document.getElementById("child1");
+        const child2=document.getElementById("child2");
+
+        function createElementFunction(){
+            const Element= document.createElement("h1");
+            const text = document.createTextNode("This is a new heading Element");
+
+            element.append (text);
+            parent.insertBefore(element,child1);
+
+        }
+
+        function removeElementFunction(){
+            child1.remove();
+        }
+
+        function remove Element Function(){
+            parent.removechild1(child2)
+        }
+        function replaceChildElementFunction(){
+            const element= document.CreateElement("h1");
+            const text = document.createTextNode("This is replaced heading");
+
+            element.append(text);
+            parent.replaceChild(element,child2)
+        }
+
+
+
+
+    </script>
+ 
+
+
+
+</body>
+</html>

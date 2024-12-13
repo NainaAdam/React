@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <script>
+        const arr1 = ["Royal enfield", "BMW","YAMAHA","Kawaski", "100","50","05","4500"];
+        for( let i=0;i<arr1.length,i++){
+            console.log(arr1[i]);
+        }
+        // Object and array of object//
+        const person ={
+            First name:"Naina";
+            Last name:"Chaudhary";
+            Email:"naina9814@gmail.com";
+            Phone:12345;
+            console.log(person);
+            // if we want to access only first neme//
+            console.log(person.first name);
+            // only for email//
+            console.log(person.Email);
+        }
+        // if we want to give another set of values or multuple object i.e. array of objects//
+        //array of object//
+        const student details=[
+           { First name:"Naina";
+            Last name:"Chaudhary";
+            Email:"naina9814@gmail.com";
+            Phone:12345;
+        }
+        {
+            First name:"IDM";
+            Last name:"ERO";
+            Email:"IDMer@gmail.com";
+            phone:"234567";
+
+        }
+        {
+            First name:"IDM";
+            Last name:"ERN";
+            Email:"IDM@gmail.com";
+            phone:"2345678";  
+        }
+    ]
+    console.log(studentdetails);
+    console.table(studentdetails);
+
+    //Looping over array of object//
+    for(let i=0;i<studentd details.length;i++);{
+        console.log(student details[i]);
+    }
+    //particlular last name or first name//
+    console.log(student details[i].First name);
+ //2. for in loop//
+ for (let j in student details){
+    for (let j in student details)
+    console.log([j].last name);
+ }
+ // 3.for of loop//
+ for (let k of student.details){
+    console.log(k.Email);
+ 
+ }
+
+ //4. for each//
+ student details.forEach(function(data)){
+    console.log(data);
+ }
+ // if we want to print only phone number//
+ console.log(data.phone);
+ //5. alternatevely we can use map method i.e document object model-DOM
+ student details(Map(function(data))){
+    console.log(data);
+ }
+
+        
+
+    
+    </script>
+</body>
+</html>

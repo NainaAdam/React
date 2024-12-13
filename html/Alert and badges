@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="..bootstrap.min.css">
+</head>
+<body class="container">
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+            <h5>Card Header</h5>
+
+
+        </div>
+        <img src="https://www.bing.com/ck/a?!&&p=61f25971ceb9f8c4JmltdHM9MTcxOTk2NDgwMCZpZ3VpZD0yNDg2YjkyNS1lNDcxLTY1ZTktMWM0ZS1hZDk0ZTUzYjY0ZDUmaW5zaWQ9NTcxMA&ptn=3&ver=2&hsh=3&fclid=2486b925-e471-65e9-1c4e-ad94e53b64d5&u=a1L2ltYWdlcy9zZWFyY2g_cT1pbWFnZXMmRk9STT1JUUZSQkEmaWQ9RjEwQTEwNzRFQTY0QkU3OUUwMTlCQ0YxRjc2QTM4NTBENUQ5NUMyNg&ntb=https://www.bing.com/ck/a?!&&p=61f25971ceb9f8c4JmltdHM9MTcxOTk2NDgwMCZpZ3VpZD0yNDg2YjkyNS1lNDcxLTY1ZTktMWM0ZS1hZDk0ZTUzYjY0ZDUmaW5zaWQ9NTcxMA&ptn=3&ver=2&hsh=3&fclid=2486b925-e471-65e9-1c4e-ad94e53b64d5&u=a1L2ltYWdlcy9zZWFyY2g_cT1pbWFnZXMmRk9STT1JUUZSQkEmaWQ9RjEwQTEwNzRFQTY0QkU3OUUwMTlCQ0YxRjc2QTM4NTBENUQ5NUMyNg&ntb=1" alt="">
+<div class="card-body">
+    <div class="card-title">
+        <h5>card-title</h5>
+    </div>
+    <div class="card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sit architecto dolorum quae iusto accusamus illo doloribus vitae consequatur adipisci? Inventore culpa corporis vitae magni quas rem soluta quaerat ipsa.
+    </div>
+</div>
+<div class="card-footer">
+    <button calss ="btn-btn-outline-primary">Click</button>
+
+</div>
+    </div>
+    
+</body>
+</html>

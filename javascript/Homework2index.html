@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <input type="text"  placeholder="message"> <br> <br>
+    <button>submit</button>
+    <ul></ul>
+    <script>
+        
+        const btnE1=document.querySelector('button');
+        const inp1=document.querySelector('input');
+        const listE1=document.querySelector('ul');
+
+        btnE1.addEventListener('click',()=>{
+            const inputValue =inp1.value;
+            listE1.insertAdjacentHTML('beforeend','<li>'+inputValue+'</li>');
+        })
+       
+    
+    </script>
+
+</body>
+</html>
